@@ -7,7 +7,7 @@ function histMatching = histMatching (input, reference)
         ref_histeq = histEqualizer(reference);
 
         for c=1:colors
-            inv_hist = zeros(1,256);
+            inv_hist = zeros(256);
             for i=1:256
                 minval = abs(input_histeq(i) - ref_histeq(1));
                 for j=1:256
