@@ -1,4 +1,5 @@
 function contrastStretching = contrastStretching (image)
+    % Melakukan stretching pada histogram agar citra lebih kontras
     I_new = zeros(size(image), "uint8");
     for i = 1:size(image, 3)
         temp = image(:, :, i);
