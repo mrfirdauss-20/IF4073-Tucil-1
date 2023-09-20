@@ -1,0 +1,70 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="589490078" file="D:\FAHMI\KULIAH\SEMESTER 7\Interpretasi dan Pengolahan Citra\Tucil 1\IF4073-Tucil-1\src\script\app1.prj" location="D:\FAHMI\KULIAH\SEMESTER 7\Interpretasi dan Pengolahan Citra\Tucil 1\IF4073-Tucil-1\src\script" name="app1" target="target.mlapps" target-name="Package App">
+    <param.appname>app1</param.appname>
+    <param.authnamewatermark>Muhammad Fahmi Irfan</param.authnamewatermark>
+    <param.email>13520152@std.stei.itb.ac.id</param.email>
+    <param.company>Institut Teknologi Bandung</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\LENOVO\AppData\Local\Temp\tp8a1c1258_d4dc_4e5f_b7bf_2878c4203351.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>646814a7-b07d-40a1-893e-c4f14c0593fc</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\contrastStretching.m</file>
+      <file>${PROJECT_ROOT}\gsHist.m</file>
+      <file>${PROJECT_ROOT}\histEqualizer.m</file>
+      <file>${PROJECT_ROOT}\histMatching.m</file>
+      <file>${PROJECT_ROOT}\imageBrightening.m</file>
+      <file>${PROJECT_ROOT}\logTransform.m</file>
+      <file>${PROJECT_ROOT}\negativeImage.m</file>
+      <file>${PROJECT_ROOT}\rgbHist.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\FAHMI\KULIAH\SEMESTER 7\Interpretasi dan Pengolahan Citra\Tucil 1\IF4073-Tucil-1\src" name="script" optional="false">D:\FAHMI\KULIAH\SEMESTER 7\Interpretasi dan Pengolahan Citra\Tucil 1\IF4073-Tucil-1\src\script</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
