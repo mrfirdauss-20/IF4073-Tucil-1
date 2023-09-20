@@ -1,6 +1,5 @@
 function histEqualizer = histEqualizer(image)
     [x,y,z] = size(image);
-    disp(size(image));
     hist = zeros(256, z);
     newHist = zeros(256, 1);
     for i = 1: size(image,3)
