@@ -3,7 +3,7 @@ function gsHist = gsHist(image)
     matrix = zeros(1,256);
     for i = 1:x
         for j = 1:y
-            matrix(image(i,j)+1) = matrix(image(i,j)+1) + 1;
+            matrix(round(image(i,j))+1) = matrix(round(image(i,j))+1) + 1;
         end
     end
     xBar = 0 : 255;
